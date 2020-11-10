@@ -2,16 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-10T16:20:50 IST" name="Default suite" finished-at="2020-11-10T16:20:53 IST" duration-ms="3509">
+  <suite started-at="2020-11-10T17:31:08 IST" name="Default suite" finished-at="2020-11-10T17:31:13 IST" duration-ms="5195">
     <groups>
     </groups>
-    <test started-at="2020-11-10T16:20:50 IST" name="Default test" finished-at="2020-11-10T16:20:53 IST" duration-ms="3509">
-      <class name="com.atmecs.api_authentication.test.GetApi">
-        <test-method signature="getApiAuth()[pri:0, instance:com.atmecs.api_authentication.test.GetApi@29176cc1]" started-at="2020-11-10T16:20:50 IST" name="getApiAuth" finished-at="2020-11-10T16:20:53 IST" duration-ms="3471" status="PASS">
+    <test started-at="2020-11-10T17:31:08 IST" name="Default test" finished-at="2020-11-10T17:31:13 IST" duration-ms="5195">
+      <class name="com.atmecs.api_authentication.test.CreateRecord">
+        <test-method signature="createRecord(java.lang.Object)[pri:0, instance:com.atmecs.api_authentication.test.CreateRecord@27ae2fd0]" started-at="2020-11-10T17:31:08 IST" name="createRecord" data-provider="createUser" finished-at="2020-11-10T17:31:13 IST" duration-ms="5141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"firstname":"Shane ","mail":"shane.watson33@gmail.com","designation":"Developer","lastname":"Watson"}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getApiAuth -->
-      </class> <!-- com.atmecs.api_authentication.test.GetApi -->
+        </test-method> <!-- createRecord -->
+      </class> <!-- com.atmecs.api_authentication.test.CreateRecord -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
