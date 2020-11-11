@@ -11,7 +11,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class GetApi 
+public class GetRecords 
 {
 	@Test
 	public void getApiAuth() throws MalformedURLException
@@ -30,8 +30,6 @@ public class GetApi
 		int statusCode = response.getStatusCode();
 		
 		String body = response.getBody().asString();
-		
-		//JsonPath jsonPath = response.jsonPath();
 		
 		System.out.println(body);
 		

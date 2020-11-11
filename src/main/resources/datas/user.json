@@ -1,6 +1,15 @@
-{
-    "firstname": "Shane ",
-    "lastname": "Watson",
-    "mail":"shane.watson33@gmail.com",
-    "designation":"Developer"
-}
+[
+	{
+		"designation":"Developer",
+	    "firstname": "Shane Robert",
+	    "lastname": "Watson",
+	    "mail":"shane.watson33@gmail.com"
+	    
+	},
+	{
+		"designation":"Software Engineer",
+		"firstname":"Alfin",
+		"lastname":"Xavier",
+		"mail":"alfin.anthonyraj@atmecs.com"
+	}
+]

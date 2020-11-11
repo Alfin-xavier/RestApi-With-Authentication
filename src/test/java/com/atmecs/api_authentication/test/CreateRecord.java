@@ -2,12 +2,9 @@ package com.atmecs.api_authentication.test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.atmecs.api_authentication.utility.UsersDataProvider;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -25,6 +22,7 @@ public class CreateRecord
 			
 			Response response = request.auth().preemptive().oauth2("accessToken")
 								.header("x-apikey", "b35c5b2a12e7cb38d9913ecdd8734006969f2")
+								.body(requestBody.toString())
 								.contentType(ContentType.JSON).post(new URL(url))
 								.then().extract().response();
 			
