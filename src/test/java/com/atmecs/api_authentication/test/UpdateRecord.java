@@ -23,13 +23,14 @@ public class UpdateRecord
 	public void updateUser(Object requestBody) throws MalformedURLException
 	{
 		String url = "https://sample-3a82.restdb.io/rest/restapi-testing/5fab80035d95e30700003985";
+		String accessToken = "b35c5b2a12e7cb38d9913ecdd8734006969f2";
 		
 		Map<String, Object> headers = new HashMap<>();
 		headers.put("Content-Type", "application/json");
 
 		RequestSpecification request = RestAssured.given().headers(headers);
 
-		Response response = request.auth().preemptive().oauth2("accessToken")
+		Response response = request.auth().preemptive().oauth2(accessToken)
 				.header("x-apikey", "b35c5b2a12e7cb38d9913ecdd8734006969f2")
 				.body(requestBody.toString())
 				.contentType(ContentType.JSON)
@@ -52,7 +53,10 @@ public class UpdateRecord
 		System.out.println("LastName:" + lastname);
 		
 		String designation = jsonPath.getString("designation");
-		System.out.println("Name:" + designation);
+		System.out.println("Designation:" + designation);
+		
+		String mail = jsonPath.getString("mail");
+		System.out.println("Mail:" + mail);
 		
 		JSONObject jsonObject = (JSONObject) requestBody;
 		Assert.assertEquals(firstname, jsonObject.get("firstname").toString());
