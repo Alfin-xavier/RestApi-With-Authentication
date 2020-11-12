@@ -9,6 +9,7 @@ import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.atmecs.api_authentication.utility.Logging;
 import com.atmecs.api_authentication.utility.UsersDataProvider;
 
 import io.restassured.RestAssured;
@@ -22,7 +23,10 @@ public class UpdateRecord
 	@Test(dataProvider = "createUser", dataProviderClass = UsersDataProvider.class )
 	public void updateUser(Object requestBody) throws MalformedURLException
 	{
-		String url = "https://sample-3a82.restdb.io/rest/restapi-testing/5fab80035d95e30700003985";
+		Logging log = new Logging();
+		
+		String url = "https://sample-3a82.restdb.io/rest/restapi-testing/5fad0f69fdcc931600001432";
+		
 		String accessToken = "b35c5b2a12e7cb38d9913ecdd8734006969f2";
 		
 		Map<String, Object> headers = new HashMap<>();
@@ -30,6 +34,7 @@ public class UpdateRecord
 
 		RequestSpecification request = RestAssured.given().headers(headers);
 
+		log.info("Providing access and update record !!"+"\n");
 		Response response = request.auth().preemptive().oauth2(accessToken)
 				.header("x-apikey", "b35c5b2a12e7cb38d9913ecdd8734006969f2")
 				.body(requestBody.toString())
@@ -39,30 +44,33 @@ public class UpdateRecord
 		int statusCode = response.getStatusCode();
 		String responseBody = response.getBody().asString();
 
-		System.out.println("Status Code:" + statusCode);
-		System.out.println("Response Body:" + responseBody);
-
+		log.info("Getting status code: "+ statusCode);
+		
+		log.info("Verifying status code !!");
 		Assert.assertEquals(statusCode, 200);
+		log.info("Verified status code !!"+"\n");
+		
+		log.info("Getting response body: "+ responseBody+"\n");
 
 		JsonPath jsonPath = response.jsonPath();
 
 		String firstname = jsonPath.getString("firstname");
-		System.out.println("FirstName:" + firstname);
+		log.info("FirstName:" + firstname);
 		
 		String lastname = jsonPath.getString("lastname");
-		System.out.println("LastName:" + lastname);
+		log.info("LastName:" + lastname);
 		
 		String designation = jsonPath.getString("designation");
-		System.out.println("Designation:" + designation);
+		log.info("Designation:" + designation);
 		
 		String mail = jsonPath.getString("mail");
-		System.out.println("Mail:" + mail);
+		log.info("Mail:" + mail);
 		
 		JSONObject jsonObject = (JSONObject) requestBody;
 		Assert.assertEquals(firstname, jsonObject.get("firstname").toString());
 
 		String updatedAt = jsonPath.getString("_created");
-		System.out.println("Updated:" + updatedAt);
+		log.info("Getting Updated time: " + updatedAt);
 
 	}
 }

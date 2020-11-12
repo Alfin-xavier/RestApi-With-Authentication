@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 16.845 s <<< FAILURE! - in TestSuite
+com.atmecs.api_authentication.test.PatchRecord.updateUser[{"firstname":"Suresh03","mail":"raina03@gmail.com","designation":"All Rounder","lastname":"Raina"}](1)  Time elapsed: 7.006 s  <<< FAILURE!
+java.lang.AssertionError: expected [201] but found [200]
+	at com.atmecs.api_authentication.test.PatchRecord.updateUser(PatchRecord.java:42)
+
+com.atmecs.api_authentication.test.UpdateRecord.updateUser[{"firstname":"Suresh03","mail":"raina03@gmail.com","designation":"All Rounder","lastname":"Raina"}](1)  Time elapsed: 1.932 s  <<< FAILURE!
+java.lang.AssertionError: expected [201] but found [200]
+	at com.atmecs.api_authentication.test.UpdateRecord.updateUser(UpdateRecord.java:50)
+
+com.atmecs.api_authentication.test.DeleteRecord.deleteRecord  Time elapsed: 1.503 s  <<< FAILURE!
+java.lang.AssertionError: expected [204] but found [200]
+	at com.atmecs.api_authentication.test.DeleteRecord.deleteRecord(DeleteRecord.java:39)
+

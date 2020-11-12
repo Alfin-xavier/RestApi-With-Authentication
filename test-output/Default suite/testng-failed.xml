@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.api_authentication.test.UpdateRecord">
+      <class name="com.atmecs.api_authentication.test.DeleteRecord">
         <methods>
-          <include name="updateUser" invocation-numbers="0"/>
+          <include name="deleteRecord"/>
         </methods>
-      </class> <!-- com.atmecs.api_authentication.test.UpdateRecord -->
+      </class> <!-- com.atmecs.api_authentication.test.DeleteRecord -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

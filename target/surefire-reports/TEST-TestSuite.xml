@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.845" tests="4" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\api_authentication\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\api_authentication\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\alfin.anthonyraj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire4128018052721582173\surefirebooter10660605018572074497.jar C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire4128018052721582173 2020-11-12T16-00-49_195-jvmRun1 surefire8816808801262515753tmp surefire_014142815045142118433tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\alfin.anthonyraj\Automation_Selenium\api_authentication\target\test-classes;C:\Users\alfin.anthonyraj\Automation_Selenium\api_authentication\target\classes;C:\Users\alfin.anthonyraj\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\alfin.anthonyraj\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alfin.anthonyraj\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\alfin.anthonyraj\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\alfin.anthonyraj\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\alfin.anthonyraj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\alfin.anthonyraj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\alfin.anthonyraj\Automation_Selenium\api_authentication"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\alfin.anthonyraj\AppData\Local\Temp\surefire4128018052721582173\surefirebooter10660605018572074497.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="Alfin.Anthonyraj"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\alfin.anthonyraj\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ALFIN~1.ANT\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="C:\Users\alfin.anthonyraj\Automation_Selenium\api_authentication"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-14.0.1/bin/server;C:/Program Files/Java/jdk-14.0.1/bin;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\alfin.anthonyraj\.dotnet\tools;C:\Users\alfin.anthonyraj\eclipse\java-2020-032\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="updateUser[{&quot;firstname&quot;:&quot;Suresh03&quot;,&quot;mail&quot;:&quot;raina03@gmail.com&quot;,&quot;designation&quot;:&quot;All Rounder&quot;,&quot;lastname&quot;:&quot;Raina&quot;}](1)" classname="com.atmecs.api_authentication.test.PatchRecord" time="7.006">
+    <failure message="expected [201] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [200]
+	at com.atmecs.api_authentication.test.PatchRecord.updateUser(PatchRecord.java:42)
+]]></failure>
+    <system-out><![CDATA[Providing access and modifying record !!
+
+Get connection for route {s}->https://sample-3a82.restdb.io:443
+Connecting to sample-3a82.restdb.io:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: PATCH /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1
+ >> "PATCH /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1[\r][\n]"
+ >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 98[\r][\n]"
+ >> "Host: sample-3a82.restdb.io[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> PATCH /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1
+>> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+>> Accept: */*
+>> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 98
+>> Host: sample-3a82.restdb.io
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"firstname":"Suresh03","mail":"raina03@gmail.com","designation":"All Rounder","lastname":"Raina"}"
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "x-xss-protection: 1; mode=block[\r][\n]"
+ << "x-download-options: noopen[\r][\n]"
+ << "x-frame-options: SAMEORIGIN[\r][\n]"
+ << "x-content-type-options: nosniff[\r][\n]"
+ << "x-dns-prefetch-control: off[\r][\n]"
+ << "content-type: application/json; charset=utf-8[\r][\n]"
+ << "content-length: 396[\r][\n]"
+ << "etag: W/"18c-AIUL5MMIexeIGsJuUCaKUGu9p6w"[\r][\n]"
+ << "vary: Accept-Encoding[\r][\n]"
+ << "date: Thu, 12 Nov 2020 10:30:57 GMT[\r][\n]"
+ << "connection: close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< x-xss-protection: 1; mode=block
+<< x-download-options: noopen
+<< x-frame-options: SAMEORIGIN
+<< x-content-type-options: nosniff
+<< x-dns-prefetch-control: off
+<< content-type: application/json; charset=utf-8
+<< content-length: 396
+<< etag: W/"18c-AIUL5MMIexeIGsJuUCaKUGu9p6w"
+<< vary: Accept-Encoding
+<< date: Thu, 12 Nov 2020 10:30:57 GMT
+<< connection: close
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{"_id":"5fab80035d95e30700003985","designation":"All Rounder","firstname":"Suresh03","lastname":"Raina","mail":"raina03@gmail.com","_created":"2020-11-11T06:09:07.633Z","_changed":"2020-11-12T10:30:57.101Z","_createdby":"api","_changedby":"api","_keywords":["api","all","rounder","suresh03","raina","raina03","gmail","com"],"_tags":"api all rounder suresh03 raina raina03 gmail com","_version":7}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4c54fc21
+Connection 0.0.0.0:51080<->188.166.28.84:443 shut down
+Getting status code: 200
+Verifying status code !!
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser[{&quot;firstname&quot;:&quot;Suresh03&quot;,&quot;mail&quot;:&quot;raina03@gmail.com&quot;,&quot;designation&quot;:&quot;All Rounder&quot;,&quot;lastname&quot;:&quot;Raina&quot;}](1)" classname="com.atmecs.api_authentication.test.UpdateRecord" time="1.932">
+    <failure message="expected [201] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [201] but found [200]
+	at com.atmecs.api_authentication.test.UpdateRecord.updateUser(UpdateRecord.java:50)
+]]></failure>
+    <system-out><![CDATA[Providing access and update record !!
+
+Get connection for route {s}->https://sample-3a82.restdb.io:443
+Connecting to sample-3a82.restdb.io:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: PUT /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1
+ >> "PUT /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1[\r][\n]"
+ >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Content-Length: 98[\r][\n]"
+ >> "Host: sample-3a82.restdb.io[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> PUT /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1
+>> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+>> Accept: */*
+>> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+>> Content-Type: application/json; charset=UTF-8
+>> Content-Length: 98
+>> Host: sample-3a82.restdb.io
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+>> Accept-Encoding: gzip,deflate
+ >> "{"firstname":"Suresh03","mail":"raina03@gmail.com","designation":"All Rounder","lastname":"Raina"}"
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "x-xss-protection: 1; mode=block[\r][\n]"
+ << "x-download-options: noopen[\r][\n]"
+ << "x-frame-options: SAMEORIGIN[\r][\n]"
+ << "x-content-type-options: nosniff[\r][\n]"
+ << "x-dns-prefetch-control: off[\r][\n]"
+ << "content-type: application/json; charset=utf-8[\r][\n]"
+ << "content-length: 396[\r][\n]"
+ << "etag: W/"18c-N2fpDoOr+VOeokjhIXZ02eip/Co"[\r][\n]"
+ << "vary: Accept-Encoding[\r][\n]"
+ << "date: Thu, 12 Nov 2020 10:30:59 GMT[\r][\n]"
+ << "connection: close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< x-xss-protection: 1; mode=block
+<< x-download-options: noopen
+<< x-frame-options: SAMEORIGIN
+<< x-content-type-options: nosniff
+<< x-dns-prefetch-control: off
+<< content-type: application/json; charset=utf-8
+<< content-length: 396
+<< etag: W/"18c-N2fpDoOr+VOeokjhIXZ02eip/Co"
+<< vary: Accept-Encoding
+<< date: Thu, 12 Nov 2020 10:30:59 GMT
+<< connection: close
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{"_id":"5fab80035d95e30700003985","designation":"All Rounder","firstname":"Suresh03","lastname":"Raina","mail":"raina03@gmail.com","_created":"2020-11-11T06:09:07.633Z","_changed":"2020-11-12T10:30:59.140Z","_createdby":"api","_changedby":"api","_keywords":["api","all","rounder","suresh03","raina","raina03","gmail","com"],"_tags":"api all rounder suresh03 raina raina03 gmail com","_version":8}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7a76820f
+Connection 0.0.0.0:51082<->188.166.28.84:443 shut down
+Getting status code: 200
+Verifying status code !!
+]]></system-out>
+  </testcase>
+  <testcase name="deleteRecord" classname="com.atmecs.api_authentication.test.DeleteRecord" time="1.503">
+    <failure message="expected [204] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [204] but found [200]
+	at com.atmecs.api_authentication.test.DeleteRecord.deleteRecord(DeleteRecord.java:39)
+]]></failure>
+    <system-out><![CDATA[Providing access to delete record from db !!
+
+Get connection for route {s}->https://sample-3a82.restdb.io:443
+Connecting to sample-3a82.restdb.io:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: DELETE /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1
+ >> "DELETE /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+ >> "Host: sample-3a82.restdb.io[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> DELETE /rest/restapi-testing/5fab80035d95e30700003985 HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+>> Accept: */*
+>> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+>> Host: sample-3a82.restdb.io
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "x-xss-protection: 1; mode=block[\r][\n]"
+ << "x-download-options: noopen[\r][\n]"
+ << "x-frame-options: SAMEORIGIN[\r][\n]"
+ << "x-content-type-options: nosniff[\r][\n]"
+ << "x-dns-prefetch-control: off[\r][\n]"
+ << "content-type: application/json; charset=utf-8[\r][\n]"
+ << "content-length: 39[\r][\n]"
+ << "etag: W/"27-usxmdfam66L9vyeFGdNVIuHs0rI"[\r][\n]"
+ << "vary: Accept-Encoding[\r][\n]"
+ << "date: Thu, 12 Nov 2020 10:31:00 GMT[\r][\n]"
+ << "connection: close[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< x-xss-protection: 1; mode=block
+<< x-download-options: noopen
+<< x-frame-options: SAMEORIGIN
+<< x-content-type-options: nosniff
+<< x-dns-prefetch-control: off
+<< content-type: application/json; charset=utf-8
+<< content-length: 39
+<< etag: W/"27-usxmdfam66L9vyeFGdNVIuHs0rI"
+<< vary: Accept-Encoding
+<< date: Thu, 12 Nov 2020 10:31:00 GMT
+<< connection: close
+Parsing response as: application/json; charset=utf-8
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Getting status code: 200
+Verifying status code !!
+]]></system-out>
+  </testcase>
+  <testcase name="getApiAuth" classname="com.atmecs.api_authentication.test.GetRecords" time="1.577">
+    <system-out><![CDATA[Building the request !!
+
+Providing access to retrieve the records ang getting response !!
+
+Get connection for route {s}->https://sample-3a82.restdb.io:443
+Connecting to sample-3a82.restdb.io:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /rest/restapi-testing HTTP/1.1
+ >> "GET /rest/restapi-testing HTTP/1.1[\r][\n]"
+ >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+ >> "Host: sample-3a82.restdb.io[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /rest/restapi-testing HTTP/1.1
+>> Content-Type: application/json; charset=UTF-8
+>> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+>> Accept: */*
+>> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+>> Host: sample-3a82.restdb.io
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "x-xss-protection: 1; mode=block[\r][\n]"
+ << "x-download-options: noopen[\r][\n]"
+ << "x-frame-options: SAMEORIGIN[\r][\n]"
+ << "x-content-type-options: nosniff[\r][\n]"
+ << "x-dns-prefetch-control: off[\r][\n]"
+ << "surrogate-control: no-store[\r][\n]"
+ << "cache-control: no-store, no-cache, must-revalidate, proxy-revalidate[\r][\n]"
+ << "pragma: no-cache[\r][\n]"
+ << "expires: 0[\r][\n]"
+ << "content-type: application/json; charset=utf-8[\r][\n]"
+ << "vary: Accept-Encoding[\r][\n]"
+ << "content-encoding: gzip[\r][\n]"
+ << "date: Thu, 12 Nov 2020 10:31:02 GMT[\r][\n]"
+ << "connection: close[\r][\n]"
+ << "transfer-encoding: chunked[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< x-xss-protection: 1; mode=block
+<< x-download-options: noopen
+<< x-frame-options: SAMEORIGIN
+<< x-content-type-options: nosniff
+<< x-dns-prefetch-control: off
+<< surrogate-control: no-store
+<< cache-control: no-store, no-cache, must-revalidate, proxy-revalidate
+<< pragma: no-cache
+<< expires: 0
+<< content-type: application/json; charset=utf-8
+<< vary: Accept-Encoding
+<< content-encoding: gzip
+<< date: Thu, 12 Nov 2020 10:31:02 GMT
+<< connection: close
+<< transfer-encoding: chunked
+Parsing response as: application/json; charset=utf-8
+ << "a[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]"
+ << "[\r][\n]"
+ << "fa[\r][\n]"
+ << "[0x9d][0x90]1k[0xc3]0[0x14][0x84][0xf7][0xfc][\n]"
+ << "[0xa3]9[0x4][0xc5][0x8e]l[0xb9]SR[0xc8][0xd2]-[0xcd]R([0xa5]<KO[0x8e][0x8c]-[0x81][0xac]4[0x94][0x92][0xff]^[0xd9][0xb4][0xae][0xed]d[0xaa]6[0xdd];[0xb8][0xef][0xee]u[0x11]}[0x91]w-[0xc9][0x3]a[\n]"
+ << "[0xf2][\r]g[0x5][0x93]9[0xc3][0x84]f4[0xbc]u[0xba]QdI$[0xb6][0xba]4[0xe0][0xb5]5[0xc1]x[0xb4][0xca]_[0xc0]a[0xb4]7[0xa5]6[0x88].8[0x94]v[0xad]7[0xd0]`[0xb8][0xef]j[0xa5]M[0xd0]j[0x18][0xa4][0x17][0xf8][0xd0][0xbd][0xaf][0x1]][0x87]?t[0x96][0x15][0x18][0xb2][0xe6][0xd3]A[0xb5][0x5][0xdf][0xa0]hW[0xc2]6[0xe4][0xba][0x9c]3q>eb[0xf1][\r][0xd3]a7[0x83]8[0x9e][0xc0][0xe0][0x14][0xe2][0x97][0xeb][0x87][0xa1][0xed][0x1c]=H[0x16][0xd3]m[0xd9][0xa9][0xf7][0xf2][0xb]Ni2[0xce]Or[0x9e][0xde]n[0xb2][0xbf]7B4[0xf4][0x1e]c[0xc][0xad][0xff][0xb5][0x87]@[0x10]JI![0xf2]d[0x9d][0xf6]{[0xc4]Y1[0xb][0xe][0xb1]F:[0x98][0x6]?[0xa1][0xc4][\n]"
+ << "[0xfe]B+[0x94]g>*>[0xef][0xf4]h/u[0x80][0xbf].[0xde][0xbe][0x1][0xf8]D[0xda][0x97]&[0x2][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@53e54689
+Connection 0.0.0.0:51086<->188.166.28.84:443 shut down
+Getting response body
+
+Response body: [
+ {"_id":"5fa9485b5d95e3070000164f","designation":"Software Engineer","firstname":"Alfin","lastname":"Xavier","mail":"alfin.anthonyraj@atmecs.com"},
+ {"_id":"5fa948885d95e30700001652","designation":"QA","firstname":"Shane","lastname":"Alfin","mail":"shanealfin720@gmail.com"},
+ {"_id":"5fab80035d95e30700003986","designation":"SE","firstname":"Alfin Xavier","lastname":"Anthonyraj","mail":"alfin.anthonyraj@atmecs.com"},
+ {"_id":"5faceacffdcc93160000127b","firstname":"Ravindra","lastname":"Jedeja","mail":"jedu8@gmail.com","designation":"Bowler"}
+]
+Getting status code
+Verifying the status code !!
+Status Code:200
+Verified status code !!
+]]></system-out>
+  </testcase>
+</testsuite>
