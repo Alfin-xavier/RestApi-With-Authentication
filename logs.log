@@ -1323,3 +1323,168 @@
 [main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
 [main] INFO  com.atmecs.api_authentication.utility.Logging  - Getting status code: 404
 [main] INFO  com.atmecs.api_authentication.utility.Logging  - Verifying status code !!
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Building the request !!
+
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Providing access to retrieve the records ang getting response !!
+
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /rest/restapi-testing HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "GET /rest/restapi-testing HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> GET /rest/restapi-testing HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[main] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "surrogate-control: no-store[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "cache-control: no-store, no-cache, must-revalidate, proxy-revalidate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "pragma: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "expires: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Fri, 13 Nov 2020 06:36:42 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "transfer-encoding: chunked[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[main] DEBUG org.apache.http.headers  - << surrogate-control: no-store
+[main] DEBUG org.apache.http.headers  - << cache-control: no-store, no-cache, must-revalidate, proxy-revalidate
+[main] DEBUG org.apache.http.headers  - << pragma: no-cache
+[main] DEBUG org.apache.http.headers  - << expires: 0
+[main] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers  - << vary: Accept-Encoding
+[main] DEBUG org.apache.http.headers  - << content-encoding: gzip
+[main] DEBUG org.apache.http.headers  - << date: Fri, 13 Nov 2020 06:36:42 GMT
+[main] DEBUG org.apache.http.headers  - << connection: close
+[main] DEBUG org.apache.http.headers  - << transfer-encoding: chunked
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[main] DEBUG org.apache.http.wire  -  << "a[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "fa[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x9d][0x90]1k[0xc3]0[0x14][0x84][0xf7][0xfc][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0xa3]9[0x4][0xc5][0x8e]l[0xb9]SR[0xc8][0xd2]-[0xcd]R([0xa5]<KO[0x8e][0x8c]-[0x81][0xac]4[0x94][0x92][0xff]^[0xd9][0xb4][0xae][0xed]d[0xaa]6[0xdd];[0xb8][0xef][0xee]u[0x11]}[0x91]w-[0xc9][0x3]a[\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0xf2][\r]g[0x5][0x93]9[0xc3][0x84]f4[0xbc]u[0xba]QdI$[0xb6][0xba]4[0xe0][0xb5]5[0xc1]x[0xb4][0xca]_[0xc0]a[0xb4]7[0xa5]6[0x88].8[0x94]v[0xad]7[0xd0]`[0xb8][0xef]j[0xa5]M[0xd0]j[0x18][0xa4][0x17][0xf8][0xd0][0xbd][0xaf][0x1]][0x87]?t[0x96][0x15][0x18][0xb2][0xe6][0xd3]A[0xb5][0x5][0xdf][0xa0]hW[0xc2]6[0xe4][0xba][0x9c]3q>eb[0xf1][\r][0xd3]a7[0x83]8[0x9e][0xc0][0xe0][0x14][0xe2][0x97][0xeb][0x87][0xa1][0xed][0x1c]=H[0x16][0xd3]m[0xd9][0xa9][0xf7][0xf2][0xb]Ni2[0xce]Or[0x9e][0xde]n[0xb2][0xbf]7B4[0xf4][0x1e]c[0xc][0xad][0xff][0xb5][0x87]@[0x10]JI![0xf2]d[0x9d][0xf6]{[0xc4]Y1[0xb][0xe][0xb1]F:[0x98][0x6]?[0xa1][0xc4][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0xfe]B+[0x94]g>*>[0xef][0xf4]h/u[0x80][0xbf].[0xde][0xbe][0x1][0xf8]D[0xda][0x97]&[0x2][0x0][0x0]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@51a6cc2a
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:50062<->188.166.28.84:443 shut down
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Getting response body
+
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Response body: [
+ {"_id":"5fa9485b5d95e3070000164f","designation":"Software Engineer","firstname":"Alfin","lastname":"Xavier","mail":"alfin.anthonyraj@atmecs.com"},
+ {"_id":"5fa948885d95e30700001652","designation":"QA","firstname":"Shane","lastname":"Alfin","mail":"shanealfin720@gmail.com"},
+ {"_id":"5fab80035d95e30700003986","designation":"SE","firstname":"Alfin Xavier","lastname":"Anthonyraj","mail":"alfin.anthonyraj@atmecs.com"},
+ {"_id":"5faceacffdcc93160000127b","firstname":"Ravindra","lastname":"Jedeja","mail":"jedu8@gmail.com","designation":"Bowler"}
+]
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Getting status code
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Verifying the status code !!
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Status Code:200
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Verified status code !!
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Providing access and modifying record !!
+
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: PATCH /rest/restapi-testing/5faceacffdcc93160000127b HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "PATCH /rest/restapi-testing/5faceacffdcc93160000127b HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 227[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> PATCH /rest/restapi-testing/5faceacffdcc93160000127b HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 227
+[main] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "[{"firstname":"Suresh","mail":"raina03@gmail.com","designation":"All Rounder","lastname":"Raina"},{"firstname":"Ravindra","mail":"jedu8@gmail.com","_id":"5faceacffdcc93160000127b","designation":"All Rounder","lastname":"Jedu"}]"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-length: 96[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "etag: W/"60-TrKbC7+Bw1cVY/BuDAV9LuQtVAs"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Fri, 13 Nov 2020 06:39:49 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[main] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers  - << content-length: 96
+[main] DEBUG org.apache.http.headers  - << etag: W/"60-TrKbC7+Bw1cVY/BuDAV9LuQtVAs"
+[main] DEBUG org.apache.http.headers  - << vary: Accept-Encoding
+[main] DEBUG org.apache.http.headers  - << date: Fri, 13 Nov 2020 06:39:49 GMT
+[main] DEBUG org.apache.http.headers  - << connection: close
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"firstname":"Suresh","mail":"raina03@gmail.com","designation":"All Rounder","lastname":"Raina"}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@9fc9f91
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:50074<->188.166.28.84:443 shut down
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Getting status code: 200
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Verifying status code !!
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Verified status code !!
+
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Getting response body: {"firstname":"Suresh","mail":"raina03@gmail.com","designation":"All Rounder","lastname":"Raina"}
+
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Id: null
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Firstname: Suresh
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - LastName: Raina
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Designation:All Rounder
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Mail:raina03@gmail.com
+[main] INFO  com.atmecs.api_authentication.utility.Logging  - Getting createdAt:null

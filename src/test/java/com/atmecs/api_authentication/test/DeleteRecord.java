@@ -20,7 +20,7 @@ public class DeleteRecord
 	{
 		Logging log = new Logging();
 		
-		String url = "https://sample-3a82.restdb.io/rest/restapi-testing/5fad0f69fdcc931600001432";
+		String url = "https://sample-3a82.restdb.io/rest/restapi-testing/5faceacffdcc93160000127b";
 		
 		String accessToken = "b35c5b2a12e7cb38d9913ecdd8734006969f2";
 		
